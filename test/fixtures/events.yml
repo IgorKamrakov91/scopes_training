@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clocked_in: 2016-12-25 17:43:21
+  clocked_out: 2016-12-25 17:43:21
+
+two:
+  clocked_in: 2016-12-25 17:43:21
+  clocked_out: 2016-12-25 17:43:21
