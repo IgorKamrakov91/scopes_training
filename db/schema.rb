@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20161225144232) do
 
-  create_table "events", force: :cascade do |t|
+  create_table "events", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.datetime "clocked_in"
     t.datetime "clocked_out"
     t.datetime "created_at",  null: false
